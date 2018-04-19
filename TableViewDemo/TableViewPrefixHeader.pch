@@ -1,0 +1,26 @@
+//
+//  TableViewPrefixHeader.pch
+//  TableViewDemo
+//
+//  Created by 爱恨的潮汐 on 2018/4/18.
+//  Copyright © 2018年 AiHenDeChaoXi. All rights reserved.
+//
+
+#ifndef TableViewPrefixHeader_pch
+#define TableViewPrefixHeader_pch
+
+
+//屏幕宽度
+#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+//屏幕高度
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+//AFN
+#import <AFNetworking.h>
+//图片解析
+#import <SDWebImage/UIImageView+WebCache.h>
+#import <SDWebImage/UIButton+WebCache.h>
+#import "UIView+Extension.h"//布局
+#import <MJExtension.h>
+
+
+#endif /* TableViewPrefixHeader_pch */
